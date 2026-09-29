@@ -28,3 +28,10 @@ Puis ouvrir http://127.0.0.1:8000
 ```powershell
 pytest
 ```
+
+### Docker
+
+```powershell
+docker build -t devops-lab-app:dev app
+docker run --rm -p 8080:8000 devops-lab-app:dev
+```
